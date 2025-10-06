@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>iPhone 17 Pro — Orange Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="container">
+    <header class="navbar" role="banner" aria-label="Main navigation">
+      <div class="brand">
+        <div class="logo-logo">
+          <img src="https://orange.jo/themes/custom/orange/logo.svg" width="70" alt="Orange Logo">
+        </div>
+        <div>
+          <div class="title">Orange Store</div>
+          <div class="muted" style="font-size:12px">Mobile & Internet</div>
+        </div>
+      </div>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#">Personal</a>
+        <a href="#">Devices</a>
+        <a href="#">Plans</a>
+        <a href="#">Support</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search">🔍 <span>Search</span></button>
+        <button class="icon-btn" aria-label="Account">👤 <span>Account</span></button>
+        <button id="mobileToggle" class="icon-btn" aria-label="Menu">☰</button>
+      </div>
+    </header>
+  </div>
+
+  <!-- FULL-SCREEN HERO BANNER -->
+  <section class="full-hero-banner" style="background-image:url('https://www.apple.com/v/iphone-17-pro/b/images/overview/welcome/hero_endframe__xdzisdq1ppem_xlarge.jpg')">
+    <div class="full-hero-content">
+      <button class="btn-primary" style="padding:14px 28px;font-size:18px" id="buyNowFullHero">
+        Book Now
+      </button>
+      <p style="margin-top:12px;font-size:14px;color:#ccc;text-shadow:0 1px 2px rgba(0,0,0,0.5);">
+        From 1099 dinars or 45.79 dinars/month for 24 months.*
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-left">
+          <span class="kicker">A+ internet & mobile</span>
+          <h1 id="heroTitle" class="hero-title">iPhone 17 Pro — Power meets design</h1>
+          <p class="hero-desc">
+            The iPhone 17 Pro delivers a stunning ProMotion display, next-generation performance with the A-series chip,
+            and a pro-level camera system. Designed with premium materials, advanced battery life, and lightning-fast connectivity.
+          </p>
+
+          <div class="cta-row">
+            <button class="btn-primary" id="buyNowTop">Buy Now</button>
+            <button class="btn-outline" id="learnMore">Explore Specs</button>
+          </div>
+
+          <div style="display:flex;gap:12px;margin-top:16px;align-items:center;flex-wrap:wrap">
+            <div class="pill">From JD <strong>1,099</strong></div>
+            <div class="muted" style="font-size:13px">Tax inclusive • 24-month plans available</div>
+          </div>
+        </div>
+
+        <aside class="phone-card" aria-label="iPhone preview">
+          <div class="phone-img">
+            <img src="https://www.apple.com/v/iphone-17-pro/b/images/overview/product-viewer/initial__fo4stdzx5uy6_large.jpg" alt="iPhone 17 Pro">
+          </div>
+          <h3>iPhone 17 Pro</h3>
+          <div class="phone-price">JD 1,099</div>
+          <div class="button-row">
+            <button class="btn-primary" id="buyNowCard">Buy Now</button>
+            <button class="btn-outline" id="compareBtn">Compare</button>
+          </div>
+        </aside>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="features" aria-label="Features">
+        <div class="feature">
+          <div class="icon">🖥️</div>
+          <h4>Stunning ProMotion Display</h4>
+          <p>Super Retina XDR with adaptive refresh up to 120Hz for silky-smooth scrolling and vivid colors.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">⚙️</div>
+          <h4>Next-level Performance</h4>
+          <p>Powered by the latest A-series chip for faster processing, pro workflows, and gaming performance.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon">📷</div>
+          <h4>Pro Camera System</h4>
+          <p>Advanced multi-lens system with improved low-light performance, Apple ProRAW, and cinematic modes.</p>
+        </div>
+      </section>
+
+      <!-- SLIDER SECTION -->
+      <section class="slider-section">
+        <h2>Compare Models</h2>
+
+        <div class="slider-container">
+          <div class="slider-track" id="sliderTrack">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div class="slide-content">
+                <img src="https://www.apple.com/v/iphone-17-pro/b/images/overview/contrast/iphone_17_pro__dwccrdina7qu_large.jpg" alt="iPhone 17 Pro" class="slide-image">
+                <div class="slide-info">
+                  <h3>iPhone 17 Pro</h3>
+                  <p class="muted">Innovative design for ultimate performance and battery life.</p>
+                  <ul>
+                    <li>• 6.3″ or 6.9″ Super Retina XDR display</li>
+                    <li>• 48MP Pro Fusion camera system</li>
+                    <li>• A19 Pro chip with Neural Accelerators</li>
+                    <li>• Up to 39 hours video playback</li>
+                    <li>• Apple Intelligence tools</li>
+                  </ul>
+                  <button class="btn-primary" onclick="openBuy(1099,'iPhone 17 Pro 256GB')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="slide-content">
+                <img src="https://www.apple.com/v/iphone-17-pro/b/images/overview/contrast/iphone_air__fe2gdmh5u5qy_large.jpg" alt="iPhone Air" class="slide-image">
+                <div class="slide-info">
+                  <h3>iPhone Air</h3>
+                  <p class="muted">The thinnest iPhone ever. With the power of pro inside.</p>
+                  <ul>
+                    <li>• 6.5″ Super Retina XDR display</li>
+                    <li>• 48MP Fusion Main camera</li>
+                    <li>• A19 Pro chip (5-core GPU)</li>
+                    <li>• Up to 27 hours video playback</li>
+                    <li>• Center Stage front camera</li>
+                  </ul>
+                  <button class="btn-primary" onclick="openBuy(899,'iPhone Air 256GB')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="slide-content">
+                <img src="https://www.apple.com/v/iphone-17-pro/b/images/overview/contrast/iphone_17_pro__dwccrdina7qu_large.jpg" alt="iPhone 17" class="slide-image">
+                <div class="slide-info">
+                  <h3>iPhone 17</h3>
+                  <p class="muted">Even more delightful. Even more durable.</p>
+                  <ul>
+                    <li>• 6.1″ Super Retina XDR display</li>
+                    <li>• 48MP Dual Fusion camera system</li>
+                    <li>• A19 chip (5-core GPU)</li>
+                    <li>• Up to 24 hours video playback</li>
+                    <li>• Ceramic Shield 2 front</li>
+                  </ul>
+                  <button class="btn-primary" onclick="openBuy(799,'iPhone 17 256GB')">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: iPhone 17 Pro Max -->
+      <div class="slide">
+        <div class="slide-content">
+          <img src="https://www.apple.com/v/iphone-17-pro/b/images/overview/contrast/iphone_17_pro__dwccrdina7qu_large.jpg" alt="iPhone 17 Pro" class="slide-image">
+          <div class="slide-info">
+            <h3>iPhone 17 Pro Max</h3>
+            <p class="muted">Largest display. Longest battery life. Ultimate pro features.</p>
+            <ul style="list-style:none; padding:0; margin:12px 0; font-size:14px;">
+              <li>• 6.9″ Super Retina XDR display</li>
+              <li>• 48MP Pro Fusion camera system</li>
+              <li>• A19 Pro chip with Neural Accelerators</li>
+              <li>• Up to 42 hours video playback</li>
+              <li>• 8x optical-quality zoom</li>
+            </ul>
+            <button class="btn-primary" onclick="openBuy(1199,'iPhone 17 Pro Max 512GB')">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="slider-arrow left" id="prevBtn" aria-label="Previous model">‹</button>
+    <button class="slider-arrow right" id="nextBtn" aria-label="Next model">›</button>
+
+    <!-- Dot Indicators -->
+    <div class="slider-dots" id="sliderDots"></div>
+  </div>
+</section>
+
+      <!-- PRICING -->
+      <section style="margin-top:10px">
+        <h3 style="margin:6px 0 12px 0">Choose your model</h3>
+        <div class="pricing">
+          <div class="plan">
+            <div class ="image"><img src="iPhone 17 Pro and iPhone 17 Pro Max - Apple_files/iphone_17_pro__dwccrdina7qu_small_2x.jpg" width="330" alt="iPhone 17 Pro"></div>
+            <div class="storage">iPhone 17 Pro Max — 512GB</div>
+            <div class="muted">Color: Black • In stock</div>
+            <div class="price">JD <strong>1,349</strong></div>
+            <div style="margin-top:auto"><button class="btn-primary" onclick="openBuy(1099,'iPhone 17 Pro 256GB')">Buy</button></div>
+          </div>
+
+          <div class="plan">
+                        <div class ="image"><img src="iPhone 17 Pro and iPhone 17 Pro Max - Apple_files/iphone_17_pro__dwccrdina7qu_small_2x.jpg" width="330"  alt="iPhone 17 Pro"></div>
+
+            <div class="storage">iPhone 17  — 512GB</div>
+            <div class="muted">Color: Silver • Limited</div>
+            <div class="price">JD <strong>1,099</strong></div>
+            <div style="margin-top:auto"><button class="btn-primary" onclick="openBuy(1349,'iPhone 17 Pro 512GB')">Buy</button></div>
+          </div>
+
+          <div class="plan">
+                        <div class ="image"><img src="iphone_air__fe2gdmh5u5qy_small_2x.jpg" width="330" alt="iPhone 17 Pro"></div>
+            <div class="storage">iPhone 17 Air — 1TB</div>
+            <div class="muted">Color: Gold • Pre-order</div>
+            <div class="price">JD <strong>1,699</strong></div>
+            <div style="margin-top:auto"><button class="btn-primary" onclick="openBuy(1699,'iPhone 17 Pro 1TB')">Buy</button></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- small details / spec list -->
+      <section style="margin-top:20px;display:flex;gap:14px;flex-wrap:wrap">
+        <div style="flex:1;min-width:280px;border-radius:12px;padding:16px;border:1px solid rgba(0,0,0,0.06)">
+          <h4>Display & Design</h4>
+          <p class="muted">Ceramic Shield, aerospace-grade frame, and edge-to-edge OLED display with ProMotion.</p>
+        </div>
+        <div style="flex:1;min-width:280px;border-radius:12px;padding:16px;border:1px solid rgba(0,0,0,0.06)">
+          <h4>Battery & Charging</h4>
+          <p class="muted">All-day battery life and fast charging with MagSafe support.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo" aria-label="Footer">
+      <div style="max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;gap:20px;align-items:flex-start;flex-wrap:wrap">
+        <div class="footer-col">
+          <div style="font-weight:800;font-size:18px">Orange Store</div>
+          <div class="muted" style="margin-top:8px">Official reseller & support</div>
+        </div>
+
+    
+
+    </footer>
+  </div>
+
+  <!-- BUY modal (simple) -->
+  <div id="buyModal" style="position:fixed;inset:0;display:none;z-index:10000;align-items:center;justify-content:center;">
+    <div style="position:absolute;inset:0;background:rgba(0,0,0,0.45)"></div>
+    <div style="background:white;z-index:10001;border-radius:12px;padding:22px;max-width:520px;width:92%;box-shadow:0 20px 60px rgba(0,0,0,0.35)">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+        <strong id="modalTitle">Buy iPhone</strong>
+        <button onclick="closeModal()" style="border:0;background:transparent;font-size:18px;cursor:pointer">✕</button>
+      </div>
+      <p id="modalBody" class="muted">Review your order and proceed to checkout.</p>
+
+      <div style="display:flex;gap:12px;margin-top:14px;align-items:center">
+        <input type="number" id="modalQty" min="1" value="1" style="width:88px;padding:10px;border-radius:8px;border:1px solid #eee">
+        <div style="margin-left:auto">
+          <button class="btn-outline" onclick="closeModal()">Cancel</button>
+          <button class="btn-primary" style="margin-left:8px" id="confirmBuy">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
